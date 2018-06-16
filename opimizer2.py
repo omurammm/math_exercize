@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- Coding: utf-8 -*-
+
 from sympy import *
 
 
