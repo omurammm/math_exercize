@@ -4,11 +4,11 @@
 from sympy import *
 
 
-#課題1
+#関数1
 def f1(x):
     return 1/x+exp(x)
 
-#課題２
+#関数２
 def f2(x):
     return sin(5*x)+(x-5)**2
 
@@ -74,7 +74,7 @@ def newton(f, x0, n):
 
 #実行
 
-#課題1
+#関数1
 print("f(x) = 1/x+exp(x)")
 print("\nGolden Section")
 golden_section(f1,0.001,10,100)
@@ -83,7 +83,7 @@ bisection(f1,0.001,10,100)
 print("\nNewton")
 newton(f1,0.001,1000)
 
-#課題2
+#関数2
 print("f(x) = sin(5*x)+(x-5)**2")
 print("\nGolden Section")
 golden_section(f2,2,6,100)
